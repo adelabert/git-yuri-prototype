@@ -1,0 +1,80 @@
+@import url(main-font.css);
+body{
+	/*width: 100%;
+	height: 100%;*/
+	/*background: red;*/
+	/*border: 1px red solid;*/
+	margin: 0;
+	padding: 0;
+}
+
+/*header*/
+#header-area{
+	width: 100%;
+	height: 50px;
+	background: #d91b5b;
+}
+.wrapper-970{
+	width: 970px;
+	height: auto;
+	/*background: red;*/
+	/*border: 1px red dashed;*/
+	margin: 0 auto;
+	position: relative;
+}
+.logo-area{
+	width: 200px;
+	height: 90px;
+	background: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-image: url(../images/global/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 3px 6px -3px #9b9396;
+	float: left;
+}
+.menu-stack{
+	/*background: red;*/
+	max-width: 750px;
+	float: right;
+}
+.menu-stack > ul{
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 50px;
+	line-height: 50px;
+
+}
+.menu-stack > ul > li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 15px;
+	cursor: pointer;
+	color: white;
+	font-family: "DB55Regular";
+	font-size: 22px;
+}
+.menu-stack > ul > li:hover:not(:last-child){
+	text-decoration: underline;
+}
+li > a{
+	text-decoration: none;
+	color: white;
+}
+.fb-link{
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+	background: #e8769d;
+	cursor: pointer;
+}
+.fb-link:hover{
+	text-decoration: none;
+}
+
