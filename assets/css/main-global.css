@@ -18,7 +18,7 @@ body{
 	width: 970px;
 	height: auto;
 	/*background: red;*/
-	/*border: 1px red dashed;*/
+	border: 1px red dashed;
 	margin: 0 auto;
 	position: relative;
 }

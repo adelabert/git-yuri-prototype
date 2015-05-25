@@ -93,16 +93,35 @@
 .sec02-txt01{
 	color: white;
 	text-shadow: 1px 1px 3px #cf92a8;
-	font-family: "DB65Med";
-	font-size: 30px;
+	font-family: "DB45Li";
+	font-size: 36px;
 	position: absolute;
+	left: 40px;
+	top: 125px;
+	text-align: center;
+	line-height: 35px;
+}
+.sec02-textsuper{
+	font-size: 48px;
+}
+.sec02-text02{
+	color: white;
+	font-size: 40px;
+	font-family: "DB55Regular";
+	text-shadow: 1px 1px 3px #cf92a8;
+	position: absolute;
+	top: 150px;
+	left: 450px;
 }
 .sec02-line45{
-	width: 50px;
+	width: 60px;
 	height: 1px;
 	border-top: 1px solid white;
-	-webkit-transform: rotate(65deg);
+	-webkit-transform: rotate(45deg);
+	text-shadow: 1px 1px 3px #cf92a8;
 	position: absolute;
+	top: 220px;
+	left: 205px;
 }
 .sec02-model{
 	width: 470px;
@@ -110,6 +129,7 @@
 	background-image: url(../images/global/woman-sec02.png);
 	background-repeat: no-repeat;
 	position: absolute;
+	top: 200px;
 }
 .sec02-video{
 	width: 500px;
@@ -117,5 +137,30 @@
 	background: white;
 	padding: 10px;
 	border-radius: 8px;
+	position: absolute;
+	left: 450px;
+	top: 205px;
 	text-shadow: 1px 1px 3px #e07696;
+}
+/*==================================================*/
+/*						SEC03						*/
+/*==================================================*/
+#sec-03{
+	width: 100%;
+	height: 700px;
+	background: white;
+	/*border: 1px dashed blue;*/
+	background-image: url(../images/global/sec03-bg.png);
+	display: block;
+	background-position-x: center;
+	background-repeat: no-repeat;
+}
+.sec03-headtext{
+	color: #d91b5b;
+	font-size: 50px;
+	font-family: "DB55Regular";
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+	margin-top: 175px;
 }
