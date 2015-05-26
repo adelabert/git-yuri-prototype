@@ -159,9 +159,14 @@
 	color: #d91b5b;
 	font-size: 50px;
 	font-family: "DB55Regular";
+	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
-	display: table;
+	left: 0;
+	right: 0;
+	width: auto;
+	text-align: center;
+	
 	margin-top: 175px;
 }
 .sec03-text01{
@@ -225,11 +230,90 @@
 /*==================================================*/
 #sec-04{
 	width: 100%;
-	height: 870px;
+	height: 869px;
 	background: white;
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec04-bg.png);
 	display: block;
 	background-position-x: center;
+	background-repeat: no-repeat;
+}
+.sec04-text01{
+	color: #d91b5b;
+	font-size: 48px;
+	font-family: "DB65Med";
+	text-align: center;
+	position: absolute;
+	top: 120px;
+	left: 55px;
+	line-height: 48px;
+}
+.sec04-text02{
+	color: #d91b5b;
+	font-size: 50px;
+	font-family: "DB55Regular";
+	position: absolute;
+	width: 560px;
+	right: 0;
+	top: 60px;
+}
+.sec04-line{
+	width: 35px;
+	height: 1px;
+	background: #f485a9;
+	-webkit-transform: rotate(65deg);
+	position: absolute;
+	top: 225px;
+	left: 175px;
+}
+.sec04-model{
+	width: 332px;
+	height: 630px;
+	background-image: url(../images/global/woman-sec04.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 45px;
+	top: 240px;
+	
+}
+.sec04-paragraph01{
+	color: #4b4f54;
+	font-size: 24px;
+	font-family: "DB55Regular";
+	width: 560px;
+	right: 0;
+	top: 125px;
+	position: absolute;
+}
+.sec04-paragraph02{
+	color: #4b4f54;
+	font-size: 20px;
+	font-family: "DB55Regular";
+	width: 560px;
+	right: 0;
+	top: 225px;
+	position: absolute;
+}
+.sec04-list{
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+.sec04-p-head{
+	font-size: 24px;
+	font-family: "DB55Regular";
+	color: #f485a9;
+}
+/*==================================================*/
+/*						SEC05						*/
+/*==================================================*/
+#sec-05{
+	width: 100%;
+	height: 750px;
+	background: #ffb7d0;
+	/*border: 1px dashed blue;*/
+	background-image: url(../images/global/sec05-bg.png);
+	display: block;
+	background-position-x: center;
+	/*background-position: top;*/
 	background-repeat: no-repeat;
 }

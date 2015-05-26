@@ -77,4 +77,6 @@ li > a{
 .fb-link:hover{
 	text-decoration: none;
 }
-
+.highlight-pink{
+	color: #f485a9;
+}
