@@ -13,6 +13,8 @@ body{
 	width: 100%;
 	height: 50px;
 	background: #d91b5b;
+	z-index: 8888;
+	position: fixed;
 }
 .wrapper-970{
 	width: 980px;
