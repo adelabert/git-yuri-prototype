@@ -15,10 +15,10 @@ body{
 	background: #d91b5b;
 }
 .wrapper-970{
-	width: 970px;
+	width: 980px;
 	height: auto;
 	/*background: red;*/
-	border: 1px red dashed;
+	/*border: 1px red dashed;*/
 	margin: 0 auto;
 	position: relative;
 }

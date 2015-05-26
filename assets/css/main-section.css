@@ -317,3 +317,38 @@
 	/*background-position: top;*/
 	background-repeat: no-repeat;
 }
+.sec05-header{
+	font-size: 50px;
+	font-family: "DB55Regular";
+	color: #d91b5b;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: 80px;
+
+}
+.sec05-content-area{
+	width: 100%;
+	height: auto;
+	background: green;
+	position: absolute;
+	top: 155px;
+}
+.sec05-content{
+	width: 320px;
+	height: auto;
+	float: left;
+}
+.sec05-img{
+	width: 100%;
+	height: 300px;
+	background: blue;
+	text-align: center;
+}
+.sec05-text{
+	color: #2d2f33;
+	font-family: "DB55Regular";
+}
