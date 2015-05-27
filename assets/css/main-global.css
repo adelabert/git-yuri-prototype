@@ -82,3 +82,15 @@ li > a{
 .highlight-pink{
 	color: #f485a9;
 }
+/* footer */
+#footer-area{
+	width: 100%;
+	height: 50px;
+	background: #d91b5b;
+}
+.footer-text{
+	font-family: "DB65Med";
+	color: white;
+	font-size: 18px;
+	line-height: 50px;
+}
