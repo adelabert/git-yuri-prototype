@@ -8,7 +8,7 @@
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec01-bg.png);
 	display: inline-block;
-	background-position-x: center;
+	background-position: center;
 	background-repeat: no-repeat;
 	margin-top: 50px;
 }
@@ -97,7 +97,7 @@
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec02-bg.png);
 	display: block;
-	background-position-x: center;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 .sec02-txt01{
@@ -115,19 +115,22 @@
 	font-size: 48px;
 }
 .sec02-text02{
+	/*width: 200px;*/
 	color: white;
 	font-size: 40px;
 	font-family: "DB55Regular";
 	text-shadow: 1px 1px 3px #cf92a8;
 	position: absolute;
 	top: 150px;
-	left: 450px;
+	left: 460px;
 }
 .sec02-line45{
 	width: 60px;
 	height: 1px;
 	border-top: 1px solid white;
+	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
 	text-shadow: 1px 1px 3px #cf92a8;
 	position: absolute;
 	top: 220px;
@@ -152,6 +155,15 @@
 	top: 205px;
 	text-shadow: 1px 1px 3px #e07696;
 }
+.sec02-measure{
+	width: 153px;
+	height: 84px;
+	background-image: url(../images/global/measure.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 450px;
+	top: 555px;
+}
 /*==================================================*/
 /*						SEC03						*/
 /*==================================================*/
@@ -162,7 +174,7 @@
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec03-bg.png);
 	display: block;
-	background-position-x: center;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 .sec03-headtext{
@@ -188,6 +200,10 @@
 	top: 325px;
 	left: 75px;
 }
+.sec03-text01:before {
+  content: "•";
+  margin-left: -8px;
+}
 .sec03-text02{
 	position: absolute;
 	color: #dc366e;
@@ -196,6 +212,10 @@
 	top: 495px;
 	font-size: 20px;
 	font-family: "DB55Regular";
+}
+.sec03-text02:before {
+  content: "*";
+  margin-left: -8px;
 }
 .sec03-text03{
 	position: absolute;
@@ -206,6 +226,10 @@
 	right: 50px;
 	top: 325px;
 }
+.sec03-text03:before {
+  content: "•";
+  margin-left: -8px;
+}
 .sec03-text04{
 	position: absolute;
 	color: #4b4f54;
@@ -214,6 +238,10 @@
 	font-family: "DB55Regular";
 	right: 50px;
 	top: 418px;
+}
+.sec03-text04:before {
+  content: "•";
+  margin-left: -8px;
 }
 .sec03-product{
 	width: 184px;
@@ -248,7 +276,7 @@
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec04-bg.png);
 	display: block;
-	background-position-x: center;
+	background-position: top center;
 	background-repeat: no-repeat;
 }
 .sec04-text01{
@@ -274,7 +302,9 @@
 	width: 35px;
 	height: 1px;
 	background: #f485a9;
+	transform: rotate(65deg);
 	-webkit-transform: rotate(65deg);
+	-moz-transform: rotate(65deg);
 	position: absolute;
 	top: 225px;
 	left: 175px;
@@ -304,8 +334,9 @@
 	font-family: "DB55Regular";
 	width: 560px;
 	right: 0;
-	top: 225px;
+	top: 230px;
 	position: absolute;
+	line-height: 24px;
 }
 .sec04-list{
 	margin: 0;
@@ -315,6 +346,18 @@
 	font-size: 24px;
 	font-family: "DB55Regular";
 	color: #f485a9;
+}
+.sec04-measure{
+	width: 153px;
+	height: 84px;
+	background-image: url(../images/global/measure.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 825px;
 }
 /*==================================================*/
 /*						SEC05						*/
@@ -326,7 +369,7 @@
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec05-bg.png);
 	display: block;
-	background-position-x: center;
+	background-position: center;
 	/*background-position: top;*/
 	background-repeat: no-repeat;
 }
@@ -374,6 +417,7 @@
 	color: #2d2f33;
 	font-size: 20px;
 	font-family: "DB55Regular";
+	line-height: 23px;
 }
 .sec05-texthead{
 	font-family: "DB65Med";
@@ -383,6 +427,28 @@
 .sec05-list{
 	padding: 0 0 0 20px; 
 	margin: 0;
+}
+.sec05-plus{
+	width: 43px;
+	height: 43px;
+	background: url(../images/global/plus-sec05.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*background-color: red;*/
+	position: absolute;
+	top: 255px;
+	right: 305px;
+}
+.sec05-minus{
+	width: 43px;
+	height: 43px;
+	background: url(../images/global/minus-sec05.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*background-color: red;*/
+	position: absolute;
+	top: 255px;
+	left: 305px;
 }
 /*==================================================*/
 /*						SEC06						*/
@@ -394,8 +460,7 @@
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec06-bg.png);
 	display: block;
-	background-position-x: center;
-	/*background-position: top;*/
+	background-position: center;
 	background-repeat: no-repeat;
 }
 .sec06-header{
@@ -460,6 +525,7 @@
 	font-size: 20px;
 	color: #4b4f54;
 	width: 80%;
+	line-height: 20px;
 }
 .sec06-footer{
 	width: 980px;
@@ -481,7 +547,7 @@
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec07-bg.png);
 	display: block;
-	background-position-x: center;
+	/*background-position: center;*/
 	/*background-position: top;*/
 	background-repeat: no-repeat;
 }
@@ -728,7 +794,7 @@
 	/*border: 1px dashed blue;*/
 	background-image: url(../images/global/sec08-bg.png);
 	display: block;
-	background-position-x: center;
+	background-position: center;
 	/*background-position: top;*/
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -758,4 +824,48 @@
 	color: #4b4f54;
 	font-family: "DB55Regular";
 	font-size: 20px;
+}
+
+/*line header 1*/
+.no-span {
+  display: table;
+  white-space: nowrap;
+}
+.no-span:before,
+.no-span:after {
+  border-top: 1px solid white;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 105px;
+  text-shadow: 1px 1px 3px #cf92a8;
+}
+.no-span:before {
+  right: 1.5%;
+}
+.no-span:after {
+  left: 1.5%;
+}
+
+/*line header 2*/
+.no-span2 {
+  display: table;
+  white-space: nowrap;
+}
+.no-span2:before,
+.no-span2:after {
+  border-top: 1px solid white;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 105px;
+  text-shadow: 1px 1px 3px #cf92a8;
+}
+.no-span2:before {
+  right: -0.5%;
+}
+.no-span2:after {
+  left: -0.5%;
 }

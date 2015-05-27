@@ -1,27 +1,92 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main-global.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main-section.css">
-	
+	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 </head>
 <body>
+	<!-- POPUP -->
+	<!-- <div id="popup-overlay">
+		<div class="popup-area">
+			<div class="popup-product"></div>
+			<div class="popup-info">
+				<table>
+					<tr>
+						<td>Name : </td>
+						<td>YURI by Seoul Secret</td>
+					</tr>
+					<tr>
+						<td>Country of origin : </td>
+						<td>เกาหลี</td>
+					</tr>
+					<tr>
+						<td>Key Ingredients :</td>
+						<td>Kionutrime-BLOC ไคโตซานจากพืช / 4 สารสกัดเฉพาะเพื่อการคุมน้ำหนัก</td>
+					</tr>
+					<tr>
+						<td>Indication :</td>
+						<td>ลดและกระชับสัดส่วน / ควบคุมน้ำหนัก</td>
+					</tr>
+					<tr>
+						<td>Direction :</td>
+						<td>รับประทานครั้งละ 1-2 เม็ด ก่อนอาหารมื้อหนัก 10-20 นาที</td>
+					</tr>
+					<tr>
+						<td>Size : </td>
+						<td>1 ขวด บรรจุ 24 เม็ด</td>
+					</tr>
+					<tr>
+						<td>Shelf life</td>
+						<td>2 ปี</td>
+					</tr>
+					<tr>
+						<td>คำแนะนำพิเศษ :</td>
+						<td>ดื่มน้ำ 6-8 แก้วเป็นประจำทุกวัน</td>
+					</tr>
+					<tr>
+						<td>ราคา</td>
+						<td>1,390 บาท</td>
+					</tr>
+					<tr>
+						<td>เลขที่ อ.ย.</td>
+						<td>10-3-06255-1-0050</td>
+					</tr>
+				</table>
+			</div>
+			<div class="popup-btn-close"></div>	
+		</div>
+	</div> -->
+
 	<!-- MENU -->
 	<div id="header-area">
 		<div class="wrapper-970">
 			<div class="logo-area"></div>
 			<div class="menu-stack">
 				<ul>
-					<li><a href="#">หน้าแรก</a></li>
-					<li>ผลิตภัณฑ์</li>
-					<li>บทความ</li>
-					<li>โปรโมชั่นและกิจกรรม</li>
-					<li>ตัวแทนจำหน่าย</li>
-					<li>ติดต่อเรา</li>
+					<li><a href="index.html">หน้าแรก</a></li>
+					<li><a href="#">ผลิตภัณฑ์</a></li>
+					<li><a href="blog.html">บทความ</a></li>
+					<li><a href="promotion.html">โปรโมชั่นและกิจกรรม</a></li>
+					<li><a href="#">ตัวแทนจำหน่าย</a></li>
+					<li><a href="#">ติดต่อเรา</a></li>
 					<li><div class="fb-link">f</div></li>
 				</ul>
 			</div>
+		</div>
+	</div>
+	<!-- PAGING -->
+	<div id="paging-base">
+		<div id="paging">
+			<ul class="paging-list">
+				<li>หน้าแรก <div class="paging-bullet paging-active"></div></li>
+				<li>รู้จักกับ Yuri <div class="paging-bullet"></div></li>
+				<li>ความโดดเด่นและแตกต่าง <div class="paging-bullet"></div></li>
+				<li>ส่วนประกอบสำคัญ <div class="paging-bullet"></div></li>
+				<li>มาตราฐานความปลอดภัย <div class="paging-bullet"></div></li>
+				<li>ผลการทดสอบผลิตภัณฑ์ <div class="paging-bullet"></div></li>
+			</ul>
 		</div>
 	</div>
 	<!-- CONTENT -->
@@ -54,10 +119,11 @@
 			</div>
 			<div class="sec02-line45"></div>
 			<div class="sec02-model"></div>
-			<div class="sec02-text02">-- ไม่ต้องอดอาหาร ก็หุ่นดีได้ --</div>
+			<div class="sec02-text02 no-span"> ไม่ต้องอดอาหาร ก็หุ่นดีได้ </div>
 			<div class="sec02-video">
 				<iframe width="500" height="281" src="https://www.youtube.com/embed/7nEngcD_TJw" frameborder="0" allowfullscreen></iframe>
 			</div>
+			<div class="sec02-measure"></div>
 		</div>
 	</div>
 	<!-- SECT 03 -->
@@ -134,12 +200,15 @@
 				ดำรงชีวิตปกติด้วย <span class="highlight-pink">YURI by SeoulSecret (ยูริ บาย โซลซีเครท) </span>จึงถูกออกแบบมาเพื่อตอบโจทย์นี้
 				โดยเฉพาะ
 			</div>
+			<div class="sec04-measure"></div>
 		</div>
 	</div>
 	<!-- SECT 05 -->
 	<div id="sec-05">
 		<div class="wrapper-970">
 			<div class="sec05-header">ส่วนประกอบสำคัญ</div>
+			<div class="sec05-plus"></div>
+			<div class="sec05-minus"></div>
 			<div class="sec05-content-area">
 				<!-- 1 -->
 				<div class="sec05-content">
@@ -217,7 +286,7 @@
 	<div id="sec-06">
 		<div class="wrapper-970">
 			<div class="sec06-header">มาตรฐานความปลอดภัย</div>
-			<div class="sec06-subhead">YURI by SeoulSecret (ยูริ บาย โซลซีเคร็ท) ปลอดภัย พิสูจน์ได้จากมาตรฐานต่างๆ ที่ได้รับ</div>
+			<div class="sec06-subhead no-span2">YURI by SeoulSecret (ยูริ บาย โซลซีเคร็ท) ปลอดภัย พิสูจน์ได้จากมาตรฐานต่างๆ ที่ได้รับ</div>
 			<div class="sec06-content-area">
 				<!-- 1 -->
 				<div class="sec06-content">
@@ -367,5 +436,8 @@
 			<div class="footer-text">COPYRIGHT 2014  © SEOUL SECRET.ALL RIGHTS RESERVED</div>
 		</div>
 	</div>
+
+	<!-- JS FILES -->
+	<script type="text/javascript" src="assets/js/paging.js"></script>
 </body>
 </html>
